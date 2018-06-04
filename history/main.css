@@ -1,5 +1,5 @@
 body::-webkit-scrollbar {
-    width: 0.5em;
+    width: 0.2em;
 }
 
 body::-webkit-scrollbar-track {
@@ -13,6 +13,12 @@ body::-webkit-scrollbar-thumb {
 }
 body {
   font-size: 2em;
+}
+@media(max-width: 980px) {
+  body {
+    font-size: 8em;
+    margin-left: 0.3em
+  }
 }
 .prev {
   float: left;
