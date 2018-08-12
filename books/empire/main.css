@@ -13,13 +13,9 @@ body::-webkit-scrollbar-thumb {
 }
 body {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: PingFang TC;
   word-wrap: break-word;
-}
-input {
-  font-size: 0.5em;
-  text-align: center; 
 }
 @media(max-width: 980px) {
   body {
